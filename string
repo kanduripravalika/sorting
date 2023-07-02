@@ -1,0 +1,9 @@
+def sort_list(lst):
+    return sorted(lst, key=lambda x: x.lower())
+strings = ["apple", "banana", "Orange", "cat", "dog"]
+sorted_strings = sort_list(strings)
+print("Sorted list of strings:", sorted_strings)
+
+excepted output:
+
+Sorted list of strings: ['apple', 'banana', 'cat', 'dog', 'Orange']
